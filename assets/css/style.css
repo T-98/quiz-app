@@ -35,3 +35,11 @@ nav a:hover {
 .button:hover {
     background-color: rgb(202, 65, 202);
 }
+
+.noBullets {
+    list-style-type: none;
+}
+
+#scoreboard {
+    text-align: center;
+}
