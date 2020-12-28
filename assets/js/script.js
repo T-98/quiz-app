@@ -11,7 +11,7 @@ var username = "";
 var quizQuestions = [{
         question: "Commonly used data types DO NOT include:",
         answers: ["Strings", "Booleans", "Alerts", "Numbers"],
-        correctAnswer: "Booleans"
+        correctAnswer: "Alerts"
     },
 
     {
@@ -48,7 +48,7 @@ if (timeLeft === 75) {
 
     clock.textContent = " 0";
     h1E1.textContent = "Coding Quiz Challenge";
-    p1E1.textContent = " Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds! "
+    p1E1.innerHTML = " Try to answer the following code-related questions within the time limit. <br> Keep in mind that incorrect answers will penalize your score/time by ten seconds! "
     startbtn.textContent = "Start Quiz";
 
     quiz.appendChild(h1E1);
